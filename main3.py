@@ -15,9 +15,8 @@ bd = {
     "id": 1,
     "nome": "auridebson",
     "idade": 46,
+    "altura": 1.81,
     "salario": 100000,
-    
-
 }
 
 
@@ -25,3 +24,8 @@ ln(30)
 print("Inclusão de dados de usuário no sistema")
 ln(30)
 
+entrada = input
+
+# Listar dados do dicinário
+# for dado in bd:
+#     print(bd[dado])
