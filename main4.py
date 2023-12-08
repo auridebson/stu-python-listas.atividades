@@ -13,9 +13,9 @@ def saudacao(hora):
     elif (hora >= 6) and (hora < 12):
         resultado = f"Bom dia!"
     elif (hora >= 12) and (hora < 18):
-        resultado = f"Boa tarde"
+        resultado = f"Boa tarde. Que tal um cafezinho da tarde?"
     elif (hora >= 18) and (hora <= 23):
-        resultado = f"Boa noite"
+        resultado = f"Boa noite, já está chegando a hora de dormir."
     else:
         resultado = f"Digite um número válido e inteiro para a hora"
 
