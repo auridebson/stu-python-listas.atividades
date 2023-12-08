@@ -24,7 +24,12 @@ ln(30)
 print("Inclusão de dados de usuário no sistema")
 ln(30)
 
-entrada = input
+while True:
+    
+    nome = input("Digite o seu nome: ")
+    idade = int(input("Digite sua idade: "))
+    altura = float(input("Digite sua altura em 'm': "))
+    salario = float(inputi("Informe seu salário: "))
 
 # Listar dados do dicinário
 # for dado in bd:
