@@ -1,4 +1,5 @@
 from func import *
+from datetime import datetime
 
 ln(30)
 print("Use esse programa pra fazer uma saudação equivalente ao turno")
@@ -27,3 +28,6 @@ ln(30)
 print(saudacao(entradaHora))
 ln(30)
 
+hora_atual = datetime.now().hour
+min_atual = datetime.now().minute
+print(f'{hora_atual}:{min_atual}')
