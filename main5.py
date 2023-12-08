@@ -1,4 +1,5 @@
 from func import *
+from datetime import datetime
 
 def soma(bate,volta):
     res = bate + volta
@@ -15,3 +16,5 @@ entrada = soma(int(input("Digite o primeiro número: ")), int(input("Digite o se
 ln(10)
 print(f"A soma dos dois números inseridos é: {entrada}")
 ln(10)
+
+print(f"A hora atual é {datetime.now().time()}")
